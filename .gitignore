@@ -1,0 +1,4 @@
+vendor
+.orig
+*.zip
+jenkins_jte_golang_app
