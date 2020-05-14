@@ -9,5 +9,4 @@
 libraries{
   golang
   ansible
-  terraform
 }
