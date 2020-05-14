@@ -1,12 +1,7 @@
-/*
-  This file will inherit the configurations set via: 
-    https://github.com/steven-terrana/example-jte-configuration/blob/master/pipeline_config.groovy
-  
-  This repository level configuration file should now add configs 
-  that are specific to this repo, such as the use of maven for build() and
-  unit_test() 
-*/
+//To reference a specific pipeline template file. This setting overrides the global default pipeline template settings defined in the 
+//Governance tier source code repo (pipeline-configuration/pipeline_config.groovy)
 pipeline_template = "go_Jenkinsfile"
+
 libraries{
   golang
   ansible
