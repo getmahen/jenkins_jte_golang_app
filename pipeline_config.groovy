@@ -6,6 +6,7 @@
   that are specific to this repo, such as the use of maven for build() and
   unit_test() 
 */
+pipeline_template = go_Jenkinsfile
 libraries{
   golang
   ansible
