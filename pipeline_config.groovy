@@ -3,8 +3,6 @@
 pipeline_template = "go_Jenkinsfile"
 
 libraries{
-  golang{
-    buildEnvironment = env
-  }
+  golang
   ansible
 }
