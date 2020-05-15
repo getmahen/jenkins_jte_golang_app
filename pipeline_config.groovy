@@ -3,6 +3,9 @@
 pipeline_template = "go_Jenkinsfile"
 
 libraries{
-  golang
+  golang{
+    number = 3
+    message = "my message to be printed!"
+  }
   ansible
 }
