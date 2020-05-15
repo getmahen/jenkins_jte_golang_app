@@ -6,7 +6,6 @@ libraries{
   golang{
     number = 3
     message = "my message to be printed!"
-    env = env
   }
   ansible
 }
