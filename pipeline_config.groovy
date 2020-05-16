@@ -7,5 +7,4 @@ libraries{
     number = 3
     message = "my message to be printed!"
   }
-  terraform
 }
