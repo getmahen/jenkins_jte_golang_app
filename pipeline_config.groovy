@@ -7,16 +7,19 @@ libraries{
     number = 3
     message = "my message to be printed!"
   }
+  sonarqube
+  terraform
+  slack
 }
 
 application_environments{
     dev{
-        ip_addresses = [ "0.0.0.1", "0.0.0.2" ]
+        //ip_addresses = [ "0.0.0.1", "0.0.0.2" ]
         terraform_role = "jenkins_role"
     }
     prod{
         long_name = "Production"
-        ip_addresses = [ "0.0.1.1", "0.0.1.2", "0.0.1.3", "0.0.1.4" ]
+        //ip_addresses = [ "0.0.1.1", "0.0.1.2", "0.0.1.3", "0.0.1.4" ]
         terraform_role = "jenkins_role"
     }
 }
