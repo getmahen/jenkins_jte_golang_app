@@ -7,9 +7,6 @@ libraries{
     number = 3
     message = "my message to be printed!"
   }
-  sonarqube
-  terraform
-  slack
 }
 
 application_environments{
